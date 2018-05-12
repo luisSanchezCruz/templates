@@ -1,0 +1,432 @@
+/*https://demo.astemplates.com/html-templates/001022/*/
+
+/*modals*/
+.modal-content {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+.modal-header {
+  border: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.modal-close {
+  color: #ddd;
+  border: none;
+  outline: none;
+  font-size: 2.8em;
+  line-height: 0.6;
+  background-color: transparent;
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.modal-close:hover {color: white;}
+.modal-body {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 25px;
+}
+.modal-body .modal-container {
+  background-color: rgba(0,0,0,0.6);
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.modal-container .row {
+  margin: 30px auto;
+  color: white;
+}
+.modal-container .row p {
+  text-align: center;
+  float: right;
+}
+.modal-container .row img {
+  width: 250px;
+  margin: auto;
+  transition: all 0.3s;
+}
+.modal-container .row img:hover{
+  border: 5px solid white;
+
+}
+/*body defult styles*/
+body {
+  transition: all 0.2s;
+  transition-delay: 1s;
+  transition-timing-function: linear;
+  overflow-x: hidden;
+}
+/*background  clases*/
+.intro-background {
+  background-image: url('../img/bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  background-position: center center;
+
+}
+
+/*common styles*/
+hr.page-divider {margin: 40px auto;}
+a.white-button {
+  display: inline-block;
+  margin-top: 30px;
+  float: right;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 12px 22px;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-size: 1.4em;
+  font-weight: lighter;
+}
+a.white-button:hover {
+  background-color: white;
+  color: black;
+}
+h1.section-title {
+  color: white;
+  text-align: right;
+}
+.icon-divider {
+  color: white;
+  font-size: large;
+}
+/*aside menu*/
+aside#menu {
+  border: 0.1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.2));
+  width: 170px;
+  position: fixed;
+  top:0;
+  left: 90px;
+}
+aside#menu #logoText {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 50%;;
+  width: 130px;
+  height: 130px;
+  margin: 70px auto;
+}
+aside#menu #logoText a {text-decoration: none;}
+aside#menu #logoText a h3 {
+  color: white;
+  text-align: center;
+  padding-top: 35%;
+  font-family: "Trebuchet MS", monospace;
+  font-weight: bolder;
+}
+button#btnMenu {display: none;}
+aside#menu ul#nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+aside#menu ul#nav li a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: block;
+  transition: 0.3s;
+}
+aside#menu ul#nav li a:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+/*maincontent*/
+div#mainContent{
+  padding-top: 155px;
+  scroll-behavior: smooth;
+}
+div#mainContent > div.row {
+  padding: 0px 0px 200px 0px;
+
+}
+/*intro*/
+#intro h3 {
+  text-align: right;
+  color: white;
+}
+/*about*/
+#about p {
+  color: white;
+  font-size: 1.3em;
+  font-weight:  lighter;
+  line-height: 1.5;
+  text-align: right;
+}
+#about img {
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+
+}
+/*products*/
+#product {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+}
+
+.item-container {
+  color: white;
+  padding-top: 10px;
+  font-size: medium;
+}
+.item-container .white-button {
+  float: none;
+  margin-bottom:80px;
+  font-size: small;
+
+}
+.item-container img {
+  width:  160px;
+  height: 160px;
+}
+
+/*history*/
+#history {color: white;}
+#history .row {margin: 20px auto;}
+#history h3 {margin-top: 0;}
+#history span {font-size: 2.5em;}
+#history p {
+  font-size: medium;
+  text-align: left;
+}
+
+/*Featured*/
+#featured .col-md-4 {}
+#featured a {
+  padding: 0px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.7);
+  transition: 0.1s ;
+}
+#featured a:hover {
+  background-color: rgba(255,255,255,0.7);
+  color: black;
+  border: 1px solid  white;
+}
+#featured img {
+ width: 100%;
+ height: 100%;
+}
+#featured .img-caption h4 {
+  font-weight: bold;
+}
+#featured .img-caption {
+  padding: 25px 15px;
+}
+
+/*news */
+#news {
+  color: white;
+}
+#news ul {
+  border-bottom:1px solid white;
+}
+
+#news ul li a {
+  color: #ddd;
+  font-size: medium;
+  padding-bottom: 30px;
+  background-color: transparent;
+  border: none;
+}
+
+#news ul .active a{
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+#news ul li a:hover {
+ color: white;
+ background-color: transparent;
+ border: none;
+}
+#news .row {
+  padding-top: 20px;
+}
+/*contact*/
+#contact div Address {
+  color: white;
+  font-size: medium;
+  line-height: 25px;
+  overflow-x: hidden;
+}
+
+#contact div address a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+}
+#contact .form-contact input,#contact .form-contact textarea {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  transition: all 0.5s ease;
+  padding: 15px 10px;
+  margin-bottom: 18px;
+  resize: none;
+}
+#contact .form-contact input::placeholder,#contact .form-contact textarea::placeholder {
+  color: white;
+}
+#contact .form-contact input:focus,#contact .form-contact textarea:focus {
+  background-color: white;
+  color: black;
+}
+#contact .form-contact input:focus::placeholder,#contact .form-contact textarea:focus::placeholder {
+  color: black;
+}
+#contact .form-contact button {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 5px;
+  transition: all 0.5s ease;
+  font-size: medium;
+  width: 90px;
+  float: right;
+}
+#contact .form-contact button:hover {
+  color:black;
+  background-color: white;
+}
+#contact div iframe {
+  margin-top: 10px;
+}
+/*responsive styles for tablets*/
+@media screen and (max-width: 992px) {
+  /*modal*/
+  div.modal-dialog {width: 100%;}
+  /*common styles*/
+  hr.page-divider {margin: 15px auto;}
+  /*aside menu*/
+  aside#menu {
+    left: 25px;
+    width: 150px;
+  }
+  aside#menu #logoText {
+    margin: 35px auto;
+    width: 110px;
+    height: 110px;
+  }
+  aside#menu ul#nav li a {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  #featured a {
+    padding-bottom: 12px;
+  }
+  #featured .img-container {
+      width: 50%;
+      height: 140px;
+      display: inline-block;
+  }
+  #featured .img-caption {
+    width: 50%;
+    float: right;
+  }
+  /*news*/
+  #news ul li a {
+    padding-bottom: 15px;
+  }
+}
+
+/*responsive styles for phones*/
+@media screen and (max-width: 767px){
+  /*modal*/
+  .modal-body {padding: 0 10px;}
+  /*common styles*/
+  div#mainContent > div.row {padding-bottom: 0px;}
+  h1.section-title {text-align: center;}
+  a.white-button {
+    float: none;
+    font-size: medium;
+  }
+  .icon-divider {margin: 85px auto;}
+  /*aside menu*/
+  aside#menu {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: static;
+  }
+  aside#menu #logoText {
+    width: 180px;
+    height: 180px;
+    margin: 15px auto;
+    padding-top: 0.2px;
+
+  }
+  aside#menu #btnMenu {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    font-size: 1.2em;
+    padding: 12px;
+    transition: background-color 0.7s;
+    cursor: pointer;
+    outline: none;
+  }
+  aside#menu #btnMenu:hover {background-color: rgba(0,0,0,0.5);}
+  aside#menu ul#nav {display: none;}
+  aside#menu ul#nav li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  /*main content*/
+  div#mainContent {padding-top: 60px;}
+  /*intro */
+  #intro h3 {
+    text-align: justify;
+    font-size: medium;
+  }
+  /*about*/
+  #about p {text-align: center;}
+  #about img {
+    width: 200px;
+    height: 200px;
+    margin: 25px auto;
+
+  }
+
+  #featured .img-container {
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+  }
+  #featured .img-caption {
+    width: auto;
+    float: none;
+  }
+  /*news*/
+  #news ul li a {
+    font-size: xx-large;
+    float: left;
+    margin: auto 10px;
+  }
+  #news div h3,#news div p{
+    text-align: center;
+  }
+  #contact div address {
+    text-align: center;
+    line-height: 30px;
+  }
+}
